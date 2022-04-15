@@ -1,1 +1,6 @@
-std::cout << Hello";
+#include <iostream>
+//first line; instructs compiler to locate the file that contains a library called iostream
+int main()
+//function that houses all the instructions for the program 
+using namespace std;
+//alternative: std::cout<<"Hello";
